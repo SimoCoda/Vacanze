@@ -1,4 +1,3 @@
-import React from "react";
 import { GrFormNextLink, GrFormPreviousLink } from "react-icons/gr";
 
 const SingleHoliday = ({ titolo, durata, descrizione, prezzo, img, next, prev }) => {

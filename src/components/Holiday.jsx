@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import axios from "axios";
 import SingleHoliday from "./SingleHoliday";
 const url = "https://react--course-api.herokuapp.com/api/v1/data/vacanze";
@@ -30,7 +30,7 @@ const Holiday = () => {
     try {
       const res = await axios.get(url);
       setData(res.data);
-      console.log(data);
+      // console.log(data);
     } catch (error) {
       console.log(error);
     }
